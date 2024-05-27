@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1702027857 1702027857
+lvs_ExtOutFile RUNDIR /eda/Mentor/Tanner/TannerTools_v2022.2/Tutorials/prooog
+lvs_ExtOutFile RULES_FILE _Generic_250nm_xRC.cal_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/DPL_xor.sp
+lvs_ExtOutFile EXTRACTION_REPORT DPL_xor.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/DPL_xor.pdsp }

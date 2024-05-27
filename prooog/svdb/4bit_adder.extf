@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1702028025 1702028026
+lvs_ExtOutFile RUNDIR /eda/Mentor/Tanner/TannerTools_v2022.2/Tutorials/prooog
+lvs_ExtOutFile RULES_FILE _Generic_250nm_xRC.cal_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/4bit_adder.sp
+lvs_ExtOutFile EXTRACTION_REPORT 4bit_adder.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/4bit_adder.pdsp }

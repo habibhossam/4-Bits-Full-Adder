@@ -1,0 +1,14 @@
+module AND_verilogAA(
+	Gnd,
+	In,
+	Out,
+	Vdd
+);
+inout Gnd;
+input In;
+output Out;
+inout Vdd;
+
+// Module contents
+
+endmodule // AND_verilogAA

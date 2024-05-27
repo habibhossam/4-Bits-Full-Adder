@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/falladderdd.dv
+dv_start matched                                  
+dv_cell {falladderdd} {falladderdd} matched
+dv_obj_count -transformed_nets {14 14} -transformed_inst {25 25} -transformed_port {7 7}
+dv_end

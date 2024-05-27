@@ -1,0 +1,18 @@
+module halfadder(
+	A,
+	B,
+	cout,
+	Gnd,
+	sum,
+	Vdd
+);
+input A;
+input B;
+output cout;
+inout Gnd;
+output sum;
+inout Vdd;
+
+// Module contents
+
+endmodule // halfadder

@@ -1,0 +1,35 @@
+//  Runset file generated on Wed Dec 6 20:24:21 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+cmn.showOptionPages.value = [ "Templates" ]
+xrc.rulesFile.value = "/eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_xRC.cal"
+xrc.layout.layoutFile.value = "falladderdd.calibre.db"
+cmn.layout.defFiles.value = [ "falladderdd.def" ]
+xrc.layout.topCellLibrary.value = "prooog"
+cmn.layout.topCellLibraryFDI.value = "prooog"
+xrc.layout.topCell.value = "falladderdd"
+xrc.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+xrc.source.sourceFile.value = "falladderdd.src.net"
+xrc.source.topCellLibrary.value = "prooog"
+xrc.source.topCellLibraryFDI.value = "prooog"
+xrc.source.topCell.value = "falladderdd"
+xrc.source.topCellFDI.value = "falladderdd"
+xrc.source.topCellView.value = "schematic"
+xrc.source.topCellViewFDI.value = "schematic"
+xrc.pexNetlist.netlistFile.value = "falladderdd.pex.netlist"
+xrc.pexNetlist.ground.value = "Gnd"
+xrc.pexNetlist.ground.specified = true
+xrc.reports.lvsReport.value = "falladderdd.lvs.report"
+xrc.reports.pexReport.value = "falladderdd.pex.report"
+
+xrc.blockExtraction.setADMSNetlistOutputFiles("{cmos_nand cmos_nand} {inverter inverter} {DPL_xor DPL_xor} {falladderdd falladderdd.pex.netlist} {NMOS25 NMOS25} {NMOS33 NMOS33} {PMOS25 PMOS25} {PMOS33 PMOS33} ")
+xrc.blockExtraction.setADMSNetlistOutputVerilogModules("{cmos_nand cmos_nand} {inverter inverter} {DPL_xor DPL_xor} {falladderdd falladderdd} {NMOS25 NMOS25} {NMOS33 NMOS33} {PMOS25 PMOS25} {PMOS33 PMOS33} ")
+
+cmn.licenseTimeout.specified = true
+cmn.licenseTimeout.timeout.value = 2.7775
+xrc.setNameTemplate("nt_calibreView", "calibrefulladder_%X")

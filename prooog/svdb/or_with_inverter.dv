@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/or_with_inverter.dv
+dv_start matched                                  
+dv_cell {or_with_inverter} {or_with_inverter} matched
+dv_obj_count -transformed_nets {7 7} -transformed_inst {4 4} -transformed_port {5 5}
+dv_end

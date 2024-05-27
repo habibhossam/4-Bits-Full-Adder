@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /eda/Mentor/Tanner/TannerTools_v2022.2/Tutorials/prooog
+pex_PexParam LAYOUT_PRIMARY falladderdd
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {falladderdd "" falladderdd.pdb "" } } 

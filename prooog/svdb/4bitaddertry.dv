@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/4bitaddertry.dv
+dv_start matched                                  
+dv_cell {4bitaddertry} {4bitaddertry} matched
+dv_obj_count -transformed_nets {42 42} -transformed_inst {88 88} -transformed_port {15 15}
+dv_end

@@ -1,0 +1,57 @@
+* Calibre pushdown separate-properties (back-annotation) data
+***************************************
+*
+* These lvs-actionable properties, indexed by DEVICE element(model) will be kept in the netlist:
+*
+* KEEP_PROP_BEGIN
+* KEEP_PROP C(cmim) L W C
+* KEEP_PROP M(MOSRes) L W
+* KEEP_PROP MN(NMOS25) L W
+* KEEP_PROP MN(NMOS25_Dummy) L W
+* KEEP_PROP MN(NMOS33) L W
+* KEEP_PROP MP(PMOS25) L W
+* KEEP_PROP MP(PMOS33) L W
+* KEEP_PROP R(rhp) L W R
+* KEEP_PROP R(rnp) L W R
+* KEEP_PROP_END
+*
+.SUBCKT pmos25x_Auto_5_1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT inverter
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT pmos25x_Auto_7_1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT nmos25x_Auto_6_1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT DPL_xor
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT nmos25x_Auto_8_1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT nmos25x_Auto_4_1
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT cmos_nand
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT falladderdd
+* nothing transcripted
+.ENDS
+***************************************
+.SUBCKT 4bit_adder
+* nothing transcripted
+.ENDS
+***************************************

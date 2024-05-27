@@ -1,0 +1,115 @@
+* File: falladderdd.pex.netlist
+* Created: Wed Dec  6 20:23:44 2023
+* Program "Calibre xRC"
+* Version "v2023.3_29.15"
+* 
+.include "falladderdd.pex.netlist.pex"
+.subckt falladderdd  A B cin cout sum Gnd Vdd
+* 
+* cout	cout
+* cin	cin
+* B	B
+* A	A
+* sum	sum
+* Vdd	Vdd
+* Gnd	Gnd
+XXcmos_nand_2.MMp1 N_N_3_Xcmos_nand_2.MMp1_d N_A_Xcmos_nand_2.MMp1_g
++ N_Vdd_Xcmos_nand_2.MMp1_s N_Vdd_Xcmos_nand_2.MMp1_b PMOS25 L=2.5e-07 W=2e-06
++ AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXcmos_nand_2.MMp2 N_N_3_Xcmos_nand_2.MMp2_d N_B_Xcmos_nand_2.MMp2_g
++ N_Vdd_Xcmos_nand_2.MMp2_s N_Vdd_Xcmos_nand_2.MMp2_b PMOS25 L=2.5e-07 W=2e-06
++ AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXcmos_nand_2.MMn1 N_Xcmos_nand_2.N_1_Xcmos_nand_2.MMn1_d
++ N_B_Xcmos_nand_2.MMn1_g N_Gnd_Xcmos_nand_2.MMn1_s N_Gnd_Xcmos_nand_2.MMn1_b
++ NMOS25 L=2.5e-07 W=2e-06 AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXcmos_nand_2.MMn2 N_N_3_Xcmos_nand_2.MMn2_d N_A_Xcmos_nand_2.MMn2_g
++ N_Xcmos_nand_2.N_1_Xcmos_nand_2.MMn2_s N_Gnd_Xcmos_nand_2.MMn1_b NMOS25
++ L=2.5e-07 W=2e-06 AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXcmos_nand_1.MMp1 N_N_2_Xcmos_nand_1.MMp1_d N_cin_Xcmos_nand_1.MMp1_g
++ N_Vdd_Xcmos_nand_1.MMp1_s N_Vdd_Xcmos_nand_1.MMp1_b PMOS25 L=2.5e-07 W=2e-06
++ AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXcmos_nand_1.MMp2 N_N_2_Xcmos_nand_1.MMp2_d N_N_1_Xcmos_nand_1.MMp2_g
++ N_Vdd_Xcmos_nand_1.MMp2_s N_Vdd_Xcmos_nand_1.MMp2_b PMOS25 L=2.5e-07 W=2e-06
++ AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXcmos_nand_1.MMn1 N_Xcmos_nand_1.N_1_Xcmos_nand_1.MMn1_d
++ N_N_1_Xcmos_nand_1.MMn1_g N_Gnd_Xcmos_nand_1.MMn1_s N_Gnd_Xcmos_nand_2.MMn1_b
++ NMOS25 L=2.5e-07 W=2e-06 AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXcmos_nand_1.MMn2 N_N_2_Xcmos_nand_1.MMn2_d N_cin_Xcmos_nand_1.MMn2_g
++ N_Xcmos_nand_1.N_1_Xcmos_nand_1.MMn2_s N_Gnd_Xcmos_nand_2.MMn1_b NMOS25
++ L=2.5e-07 W=2e-06 AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXcmos_nand_3.MMp1 N_cout_Xcmos_nand_3.MMp1_d N_N_2_Xcmos_nand_3.MMp1_g
++ N_Vdd_Xcmos_nand_3.MMp1_s N_Vdd_Xcmos_nand_3.MMp1_b PMOS25 L=2.5e-07 W=2e-06
++ AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXcmos_nand_3.MMp2 N_cout_Xcmos_nand_3.MMp2_d N_N_3_Xcmos_nand_3.MMp2_g
++ N_Vdd_Xcmos_nand_3.MMp2_s N_Vdd_Xcmos_nand_3.MMp2_b PMOS25 L=2.5e-07 W=2e-06
++ AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXcmos_nand_3.MMn1 N_Xcmos_nand_3.N_1_Xcmos_nand_3.MMn1_d
++ N_N_3_Xcmos_nand_3.MMn1_g N_Gnd_Xcmos_nand_3.MMn1_s N_Gnd_Xcmos_nand_2.MMn1_b
++ NMOS25 L=2.5e-07 W=2e-06 AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXcmos_nand_3.MMn2 N_cout_Xcmos_nand_3.MMn2_d N_N_2_Xcmos_nand_3.MMn2_g
++ N_Xcmos_nand_3.N_1_Xcmos_nand_3.MMn2_s N_Gnd_Xcmos_nand_2.MMn1_b NMOS25
++ L=2.5e-07 W=2e-06 AD=1.3e-12 AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXDPL_xor_1.Xinverter_2.MMn1 N_XDPL_xor_1.N_2_XDPL_xor_1.Xinverter_2.MMn1_d
++ N_A_XDPL_xor_1.Xinverter_2.MMn1_g N_Gnd_XDPL_xor_1.Xinverter_2.MMn1_s
++ N_Gnd_Xcmos_nand_2.MMn1_b NMOS25 L=2.5e-07 W=1e-06 AD=6.5e-13 AS=6.5e-13
++ PD=3.3e-06 PS=3.3e-06
+XXDPL_xor_1.Xinverter_2.MMp1 N_XDPL_xor_1.N_2_XDPL_xor_1.Xinverter_2.MMp1_d
++ N_A_XDPL_xor_1.Xinverter_2.MMp1_g N_Vdd_XDPL_xor_1.Xinverter_2.MMp1_s
++ N_Vdd_XDPL_xor_1.Xinverter_2.MMp1_b PMOS25 L=2.5e-07 W=2e-06 AD=1.3e-12
++ AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXDPL_xor_1.Xinverter_1.MMn1 N_XDPL_xor_1.N_1_XDPL_xor_1.Xinverter_1.MMn1_d
++ N_B_XDPL_xor_1.Xinverter_1.MMn1_g N_Gnd_XDPL_xor_1.Xinverter_1.MMn1_s
++ N_Gnd_Xcmos_nand_2.MMn1_b NMOS25 L=2.5e-07 W=1e-06 AD=6.5e-13 AS=6.5e-13
++ PD=3.3e-06 PS=3.3e-06
+XXDPL_xor_1.Xinverter_1.MMp1 N_XDPL_xor_1.N_1_XDPL_xor_1.Xinverter_1.MMp1_d
++ N_B_XDPL_xor_1.Xinverter_1.MMp1_g N_Vdd_XDPL_xor_1.Xinverter_1.MMp1_s
++ N_Vdd_XDPL_xor_1.Xinverter_1.MMp1_b PMOS25 L=2.5e-07 W=2e-06 AD=1.3e-12
++ AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXDPL_xor_1.MMp2 N_A_XDPL_xor_1.MMp2_d N_B_XDPL_xor_1.MMp2_g
++ N_N_1_XDPL_xor_1.MMp2_s N_Vdd_XDPL_xor_1.MMp2_b PMOS25 L=2.5e-07 W=5e-07
++ AD=4.025e-13 AS=4.025e-13 PD=2.6e-06 PS=2.6e-06
+XXDPL_xor_1.MMp1 N_XDPL_xor_1.N_2_XDPL_xor_1.MMp1_d
++ N_XDPL_xor_1.N_1_XDPL_xor_1.MMp1_g N_N_1_XDPL_xor_1.MMp1_s
++ N_Vdd_XDPL_xor_1.MMp1_b PMOS25 L=2.5e-07 W=5e-07 AD=4.025e-13 AS=4.025e-13
++ PD=2.6e-06 PS=2.6e-06
+XXDPL_xor_1.MMn2 N_N_1_XDPL_xor_1.MMn2_d N_A_XDPL_xor_1.MMn2_g
++ N_XDPL_xor_1.N_1_XDPL_xor_1.MMn2_s N_Gnd_Xcmos_nand_2.MMn1_b NMOS25 L=2.5e-07
++ W=5e-07 AD=4.025e-13 AS=4.025e-13 PD=2.6e-06 PS=2.6e-06
+XXDPL_xor_1.MMn1 N_N_1_XDPL_xor_1.MMn1_d N_XDPL_xor_1.N_2_XDPL_xor_1.MMn1_g
++ N_B_XDPL_xor_1.MMn1_s N_Gnd_Xcmos_nand_2.MMn1_b NMOS25 L=2.5e-07 W=5e-07
++ AD=4.025e-13 AS=4.025e-13 PD=2.6e-06 PS=2.6e-06
+XXDPL_xor_2.Xinverter_2.MMn1 N_XDPL_xor_2.N_2_XDPL_xor_2.Xinverter_2.MMn1_d
++ N_N_1_XDPL_xor_2.Xinverter_2.MMn1_g N_Gnd_XDPL_xor_2.Xinverter_2.MMn1_s
++ N_Gnd_Xcmos_nand_2.MMn1_b NMOS25 L=2.5e-07 W=1e-06 AD=6.5e-13 AS=6.5e-13
++ PD=3.3e-06 PS=3.3e-06
+XXDPL_xor_2.Xinverter_2.MMp1 N_XDPL_xor_2.N_2_XDPL_xor_2.Xinverter_2.MMp1_d
++ N_N_1_XDPL_xor_2.Xinverter_2.MMp1_g N_Vdd_XDPL_xor_2.Xinverter_2.MMp1_s
++ N_Vdd_XDPL_xor_2.Xinverter_2.MMp1_b PMOS25 L=2.5e-07 W=2e-06 AD=1.3e-12
++ AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXDPL_xor_2.Xinverter_1.MMn1 N_XDPL_xor_2.N_1_XDPL_xor_2.Xinverter_1.MMn1_d
++ N_cin_XDPL_xor_2.Xinverter_1.MMn1_g N_Gnd_XDPL_xor_2.Xinverter_1.MMn1_s
++ N_Gnd_Xcmos_nand_2.MMn1_b NMOS25 L=2.5e-07 W=1e-06 AD=6.5e-13 AS=6.5e-13
++ PD=3.3e-06 PS=3.3e-06
+XXDPL_xor_2.Xinverter_1.MMp1 N_XDPL_xor_2.N_1_XDPL_xor_2.Xinverter_1.MMp1_d
++ N_cin_XDPL_xor_2.Xinverter_1.MMp1_g N_Vdd_XDPL_xor_2.Xinverter_1.MMp1_s
++ N_Vdd_XDPL_xor_2.Xinverter_1.MMp1_b PMOS25 L=2.5e-07 W=2e-06 AD=1.3e-12
++ AS=1.3e-12 PD=5.3e-06 PS=5.3e-06
+XXDPL_xor_2.MMp2 N_N_1_XDPL_xor_2.MMp2_d N_cin_XDPL_xor_2.MMp2_g
++ N_sum_XDPL_xor_2.MMp2_s N_Vdd_XDPL_xor_2.MMp2_b PMOS25 L=2.5e-07 W=5e-07
++ AD=4.025e-13 AS=4.025e-13 PD=2.6e-06 PS=2.6e-06
+XXDPL_xor_2.MMp1 N_XDPL_xor_2.N_2_XDPL_xor_2.MMp1_d
++ N_XDPL_xor_2.N_1_XDPL_xor_2.MMp1_g N_sum_XDPL_xor_2.MMp1_s
++ N_Vdd_XDPL_xor_2.MMp1_b PMOS25 L=2.5e-07 W=5e-07 AD=4.025e-13 AS=4.025e-13
++ PD=2.6e-06 PS=2.6e-06
+XXDPL_xor_2.MMn2 N_sum_XDPL_xor_2.MMn2_d N_N_1_XDPL_xor_2.MMn2_g
++ N_XDPL_xor_2.N_1_XDPL_xor_2.MMn2_s N_Gnd_Xcmos_nand_2.MMn1_b NMOS25 L=2.5e-07
++ W=5e-07 AD=4.025e-13 AS=4.025e-13 PD=2.6e-06 PS=2.6e-06
+XXDPL_xor_2.MMn1 N_sum_XDPL_xor_2.MMn1_d N_XDPL_xor_2.N_2_XDPL_xor_2.MMn1_g
++ N_cin_XDPL_xor_2.MMn1_s N_Gnd_Xcmos_nand_2.MMn1_b NMOS25 L=2.5e-07 W=5e-07
++ AD=4.025e-13 AS=4.025e-13 PD=2.6e-06 PS=2.6e-06
+*
+.include "falladderdd.pex.netlist.falladderdd.pxi"
+*
+.ends
+*
+*

@@ -1,0 +1,25 @@
+//
+//  Rule file generated on Sun Dec 10 20:59:28 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "4bitaddertry.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "4bitaddertry"
+
+SOURCE PATH "4bitaddertry.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "4bitaddertry"
+
+PEX NETLIST "4bitaddertry.pex.netlist" CALIBREVIEW SOURCENAMES GROUND "Gnd"
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "4bitaddertry.lvs.report"
+
+DRC ICSTATION YES
+
+INCLUDE "/eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_xRC.cal"

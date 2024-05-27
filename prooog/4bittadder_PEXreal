@@ -1,0 +1,36 @@
+//  Runset file generated on Fri Dec 8 11:31:39 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+cmn.showOptionPages.value = [ "Templates" ]
+xrc.rulesFile.value = "/eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_xRC.cal"
+xrc.layout.layoutFile.value = "DPL_xor.calibre.db"
+cmn.layout.defFiles.value = [ "DPL_xor.def" ]
+xrc.layout.topCellLibrary.value = "prooog"
+cmn.layout.topCellLibraryFDI.value = "prooog"
+xrc.layout.topCell.value = "DPL_xor"
+xrc.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+xrc.source.sourceFile.value = "DPL_xor.src.net"
+xrc.source.topCellLibrary.value = "prooog"
+xrc.source.topCellLibraryFDI.value = "prooog"
+xrc.source.topCell.value = "DPL_xor"
+xrc.source.topCellFDI.value = "DPL_xor"
+xrc.source.topCellView.value = "schematic"
+xrc.source.topCellViewFDI.value = "schematic"
+xrc.pexNetlist.netlistFile.value = "DPL_xor.pex.netlist"
+xrc.pexNetlist.netlistFormat.value = "CALIBREVIEW"
+xrc.pexNetlist.ground.value = "Gnd"
+xrc.pexNetlist.ground.specified = true
+xrc.reports.lvsReport.value = "DPL_xor.lvs.report"
+xrc.reports.pexReport.value = "DPL_xor.pex.report"
+
+xrc.blockExtraction.setADMSNetlistOutputFiles("{inverter inverter} {DPL_xor DPL_xor.pex.netlist} {NMOS25 NMOS25} {NMOS33 NMOS33} {PMOS25 PMOS25} {PMOS33 PMOS33} ")
+xrc.blockExtraction.setADMSNetlistOutputVerilogModules("{inverter inverter} {DPL_xor DPL_xor} {NMOS25 NMOS25} {NMOS33 NMOS33} {PMOS25 PMOS25} {PMOS33 PMOS33} ")
+
+cmn.licenseTimeout.specified = true
+cmn.licenseTimeout.timeout.value = 2.7775
+xrc.setNameTemplate("nt_calibreView", "calibre4bittadder_%X")

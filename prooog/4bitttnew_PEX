@@ -1,0 +1,36 @@
+//  Runset file generated on Fri Dec 8 11:34:23 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+cmn.showOptionPages.value = [ "Templates" ]
+xrc.rulesFile.value = "/eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_xRC.cal"
+xrc.layout.layoutFile.value = "4bit_adder.calibre.db"
+cmn.layout.defFiles.value = [ "4bit_adder.def" ]
+xrc.layout.topCellLibrary.value = "prooog"
+cmn.layout.topCellLibraryFDI.value = "prooog"
+xrc.layout.topCell.value = "4bit_adder"
+xrc.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+xrc.source.sourceFile.value = "4bit_adder.src.net"
+xrc.source.topCellLibrary.value = "prooog"
+xrc.source.topCellLibraryFDI.value = "prooog"
+xrc.source.topCell.value = "4bit_adder"
+xrc.source.topCellFDI.value = "4bit_adder"
+xrc.source.topCellView.value = "schematic"
+xrc.source.topCellViewFDI.value = "schematic"
+xrc.pexNetlist.netlistFile.value = "4bit_adder.pex.netlist"
+xrc.pexNetlist.netlistFormat.value = "CALIBREVIEW"
+xrc.pexNetlist.ground.value = "Gnd"
+xrc.pexNetlist.ground.specified = true
+xrc.reports.lvsReport.value = "4bit_adder.lvs.report"
+xrc.reports.pexReport.value = "4bit_adder.pex.report"
+
+xrc.blockExtraction.setADMSNetlistOutputFiles("{cmos_nand cmos_nand} {inverter inverter} {DPL_xor DPL_xor} {falladderdd falladderdd} {TG_hf_AND TG_hf_AND} {halfadder halfadder} {4bit_adder 4bit_adder.pex.netlist} {NMOS25 NMOS25} {NMOS33 NMOS33} {PMOS25 PMOS25} {PMOS33 PMOS33} ")
+xrc.blockExtraction.setADMSNetlistOutputVerilogModules("{cmos_nand cmos_nand} {inverter inverter} {DPL_xor DPL_xor} {falladderdd falladderdd} {TG_hf_AND TG_hf_AND} {halfadder halfadder} {4bit_adder 4bit_adder} {NMOS25 NMOS25} {NMOS33 NMOS33} {PMOS25 PMOS25} {PMOS33 PMOS33} ")
+
+cmn.licenseTimeout.specified = true
+cmn.licenseTimeout.timeout.value = 2.7775
+xrc.setNameTemplate("nt_calibreView", "calibre4bittttnew_%X")

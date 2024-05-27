@@ -1,0 +1,36 @@
+//  Runset file generated on Sat Dec 9 19:22:44 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+lvs.rulesFile.value = "/eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_LVS.cal"
+lvs.layout.layoutFile.value = "CLA_4bitadderall.calibre.db"
+cmn.layout.defFiles.value = [ "CLA_4bitadderall.def" ]
+lvs.layout.topCellLibrary.value = "prooog"
+cmn.layout.topCellLibraryFDI.value = "prooog"
+lvs.layout.topCell.value = "CLA_4bitadderall"
+lvs.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+lvs.layout.layoutNetlist.value = "CLA_4bitadderall.sp"
+lvs.source2.sourceFile.value = "CLA_4bitadderall.sp"
+lvs.source2.topCellLibrary.value = "prooog"
+lvs.source2.topCellLibraryFDI.value = "prooog"
+lvs.source2.topCell.value = "CLA_4bitadderall"
+lvs.source2.topCellFDI.value = "CLA_4bitadderall"
+lvs.source2.topCellView.value = "schematic"
+lvs.source2.topCellViewFDI.value = "schematic"
+lvs.source.sourceFile.value = "CLA_4bitadderall.src.net"
+lvs.source.topCellLibrary.value = "prooog"
+lvs.source.topCellLibraryFDI.value = "prooog"
+lvs.source.topCell.value = "CLA_4bitadderall"
+lvs.source.topCellFDI.value = "CLA_4bitadderall"
+lvs.source.topCellView.value = "schematic"
+lvs.source.topCellViewFDI.value = "schematic"
+lvs.reports.lvsReport.value = "CLA_4bitadderall.lvs.report"
+lvs.ercdb.resultsFile.value = "CLA_4bitadderall.erc.results"
+lvs.ercSummaryReport.report.value = "CLA_4bitadderall.erc.summary"
+
+cmn.licenseTimeout.specified = true
+cmn.licenseTimeout.timeout.value = 2.7775

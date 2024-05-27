@@ -1,0 +1,37 @@
+//  Runset file generated on Fri Dec 8 13:44:05 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+lvs.rulesFile.value = "/eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_LVS.cal"
+lvs.analysisStep.value = "NVN"
+lvs.layout.layoutFile.value = "c1.calibre.db"
+cmn.layout.defFiles.value = [ "c1.def" ]
+lvs.layout.topCellLibrary.value = "prooog"
+cmn.layout.topCellLibraryFDI.value = "prooog"
+lvs.layout.topCell.value = "c1"
+lvs.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+lvs.layout.layoutNetlist.value = "c1.sp"
+lvs.source2.sourceFile.value = "c1.sp"
+lvs.source2.topCellLibrary.value = "prooog"
+lvs.source2.topCellLibraryFDI.value = "prooog"
+lvs.source2.topCell.value = "c1"
+lvs.source2.topCellFDI.value = "c1"
+lvs.source2.topCellView.value = "schematic"
+lvs.source2.topCellViewFDI.value = "schematic"
+lvs.source.sourceFile.value = "c1.src.net"
+lvs.source.topCellLibrary.value = "prooog"
+lvs.source.topCellLibraryFDI.value = "prooog"
+lvs.source.topCell.value = "c1"
+lvs.source.topCellFDI.value = "c1"
+lvs.source.topCellView.value = "schematic"
+lvs.source.topCellViewFDI.value = "schematic"
+lvs.reports.lvsReport.value = "c1.lvs.report"
+lvs.ercdb.resultsFile.value = "c1.erc.results"
+lvs.ercSummaryReport.report.value = "c1.erc.summary"
+
+cmn.licenseTimeout.specified = true
+cmn.licenseTimeout.timeout.value = 2.7775

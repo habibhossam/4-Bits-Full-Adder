@@ -1,0 +1,36 @@
+//  Runset file generated on Fri Dec 8 13:45:00 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+cmn.showOptionPages.value = [ "Templates" ]
+xrc.rulesFile.value = "/eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_xRC.cal"
+xrc.layout.layoutFile.value = "c1.calibre.db"
+cmn.layout.defFiles.value = [ "c1.def" ]
+xrc.layout.topCellLibrary.value = "prooog"
+cmn.layout.topCellLibraryFDI.value = "prooog"
+xrc.layout.topCell.value = "c1"
+xrc.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+xrc.source.sourceFile.value = "c1.src.net"
+xrc.source.topCellLibrary.value = "prooog"
+xrc.source.topCellLibraryFDI.value = "prooog"
+xrc.source.topCell.value = "c1"
+xrc.source.topCellFDI.value = "c1"
+xrc.source.topCellView.value = "schematic"
+xrc.source.topCellViewFDI.value = "schematic"
+xrc.pexNetlist.netlistFile.value = "c1.pex.netlist"
+xrc.pexNetlist.netlistFormat.value = "CALIBREVIEW"
+xrc.pexNetlist.ground.value = "Gnd"
+xrc.pexNetlist.ground.specified = true
+xrc.reports.lvsReport.value = "c1.lvs.report"
+xrc.reports.pexReport.value = "c1.pex.report"
+
+xrc.blockExtraction.setADMSNetlistOutputFiles("{inverter inverter} {or_with_inverter or_with_inverter} {TG_hf_AND TG_hf_AND} {c1 c1.pex.netlist} {NMOS25 NMOS25} {NMOS33 NMOS33} {PMOS25 PMOS25} {PMOS33 PMOS33} ")
+xrc.blockExtraction.setADMSNetlistOutputVerilogModules("{inverter inverter} {or_with_inverter or_with_inverter} {TG_hf_AND TG_hf_AND} {c1 c1} {NMOS25 NMOS25} {NMOS33 NMOS33} {PMOS25 PMOS25} {PMOS33 PMOS33} ")
+
+cmn.licenseTimeout.specified = true
+cmn.licenseTimeout.timeout.value = 2.7775
+xrc.setNameTemplate("nt_calibreView", "calibreC1_%X")

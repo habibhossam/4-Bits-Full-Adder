@@ -1,0 +1,22 @@
+//  Runset file generated on Sat Dec 9 12:04:23 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+drc.rulesFile.value = "/eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_DRC.cal"
+drc.layout.layoutFile.value = "C4.calibre.db"
+cmn.layout.defFiles.value = [ "C4.def" ]
+drc.layout.topCellLibrary.value = "prooog"
+cmn.layout.topCellLibraryFDI.value = "prooog"
+drc.layout.topCell.value = "C4"
+drc.layout.topCellView.value = "layout"
+cmn.layout.topCellViewFDI.value = "layout"
+drc.drcdb.resultsFile.value = "C4.drc.results"
+drc.reports.drcSummaryReport.value = "C4.drc.summary"
+drc.rhdb.fileName.value = "C4.rhdb"
+drc.dfmDefaults.resultsFile.value = "C4.dfmDefaults.db"
+
+cmn.licenseTimeout.specified = true
+cmn.licenseTimeout.timeout.value = 2.7775
